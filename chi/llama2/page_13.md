@@ -1,4 +1,4 @@
-```markdown
+
 ![Figure 6: Scaling trends for the reward model.](#)
 
 **Scaling trends for the reward model:** More data and a larger-size model generally improve accuracy, and it appears that our models have not yet saturated from learning on the training data.
@@ -17,4 +17,3 @@ We explored RLHF fine-tuning with two main algorithms:
 
 1. **Proximal Policy Optimization (PPO)** (Schulman et al., 2017), the standard in RLHF literature.
 2. **Rejection Sampling fine-tuning.** We sample k outputs from the model and select the best candidate with our reward, consistent with Bai et al. (2022b). The same re-ranking strategy for LLMs was also proposed in Deng et al. (2019), where the reward is seen as an energy function. Here, we go one step further, and use the selected outputs for a gradient update. For each prompt, the sample obtaining
-```

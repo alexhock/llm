@@ -1,4 +1,4 @@
-```markdown
+
 - Deep Ganguli, Amanda Askell, Nicholas Schiefer, Thomas Liao, Kamil Lukasik, Anna Chen, Anna Goldie, Azalia Mihelsonei, Catherine Olson, Danny Hernandez, et al. The capacity for model self-correction in large language models. arXiv preprint arXiv:2302.04759, 2023.
 
 - Leo Gao, Jonathan Donahue, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding, Jeffrey Hsu, Kyle McDonnell, Niklas Muenssinger, Jason Phang, Laria Reynolds, Eric Tang, Ansh Tiwari, Ben Wang, Kevin Wang, and Andy Zou. A framework for few-shot language model evaluation, September 2021. URI: https://doi.org/10.5281/zenodo.5371628.
@@ -40,4 +40,3 @@
 - Clayton Hutto and Eric Gilbert. Vader: A parsimonious rule-based model for sentiment analysis of social media text. In Proceedings of the international AAAI conference on web and social media, volume 8, pages 216–225, 2014.
 
 - Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension. arXiv preprint arXiv:1705.03551, 2017.
-```

@@ -1,6 +1,6 @@
 Here’s the extracted text from the image formatted in markdown:
 
-```markdown
+
 A Stevie Bergman, Gavin Abercrombie, Shannon L. Spruit, Dirk Hovy, Emily Dinan, Y-Lan Boureau, and Irene Reisner. Guiding the release of safe or conversational AI through value-sensitive design. In Proceedings of the 23rd Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 39–52, 2022.
 
 Shaily Bhat, Sunipa Dev, Partha Talukdar, Shash Dave, and Vinodkumar Prabhakaran. Re-contextualizing fairness in NLP: The case of india, 2022.
@@ -24,5 +24,4 @@ Aakash Chowdhury, Sharan Narang, Jacob Devlin, Manas Bonser, Gaurav Misra, Adam 
 Paul F. Christiano, Jon Leike, Tom Brown, Mijal Martic, Shane Legg, and Dario Amodei. Deep reinforcement learning for human preferences. Advances in Neural Information Processing Systems, 30, 2017.
 
 Hyoung Won Choi, H. J., Long Sun, Baezh Zopy, Yi Wang, William Feis, Edsu E. C., Zhi Wang, Mostafa Dehghani, Siddhartha Bhama, Albert Wenson, Shixing Shang, E. , Muyaun Di, Zhao Suangx, Yinyin Chen, Aakashich Chowdhury, Dasah Walter, Sharan Narang, Gaurav Misra, William Adams, Wei Yu, Vincent Zhao, Zhenqing Huang, Andrew M. D., Hongkon Yu, Siav Petrov, Ed Hadi Hish Ch, Jeff Dean, Jacob Devlin.
-```
-```
+

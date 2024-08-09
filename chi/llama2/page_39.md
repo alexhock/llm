@@ -1,6 +1,6 @@
 Here's the extracted content from the image formatted as markdown:
 
-```markdown
+
 1. Adam Roberts, Denny Zhou, Quoc V. Le, and Jason Wei. Scaling instruction-finetuned language models. arXiv preprint arXiv:2210.11416, 2022.
 
 2. Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. BoolQ: Exploring the surprising difficulty of natural yes/no questions. arXiv preprint arXiv:1905.10044, 2019.
@@ -30,4 +30,4 @@ Here's the extracted content from the image formatted as markdown:
 14. Prakhar Ganesh, Hongyan Chang, Martin Strubell, and Reza Shokri. On the impact of machine learning randomness on group fairness. In Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency, pages 1789–1800, 2023.
 
 15. Deepu Canguli, Liane Lovitt, Jackson Keron, Amanda Askell, Yuanzhu Kavadhath, Ben Mann, Ethan Perez, Nicholas Schneider, Kamal Ndousse, et al. Red teaming language models to reduce harms: Methods, scaling behaviors, and lessons learned. arXiv preprint arXiv:2209.07858, 2022.
-```
+

@@ -1,4 +1,4 @@
-```markdown
+
 ## Table 19. Five-shot performance on the Massive Multitask Language Understanding (MMLU) benchmark.
 
 |         | Humanities | STEM | Social Sciences | Other | Average |
@@ -55,4 +55,3 @@ We report 0-shot and 3-shot results for Human-Eval and MBPP respectively. For pa
 |         | 13B      | 18.0    | 60.2         | 69.0      |
 |         | 34B      | 22.6    | 77.0         | 33.0      |
 |         | 70B      | 29.9    | 45.0         | 81.4      |
-```

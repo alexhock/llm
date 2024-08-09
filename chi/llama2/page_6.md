@@ -1,4 +1,4 @@
-```markdown
+
 | Training Data                            | Params | Context Length | GQA | Tokens      | LR             |
 |------------------------------------------|--------|----------------|-----|-------------|----------------|
 | LLaMA 1                                  |        |                |     |             |                |
@@ -25,4 +25,3 @@
 ### 2.2.1 Training Hardware & Carbon Footprint
 
 **Training Hardware:** We pretrained our models on Meta's Research Super Cluster (RSC) (Lee and Sengupta, 2022) as well as internal production clusters. Both clusters use NVIDIA A100s. There are two key differences between the two clusters, with the first being the type of interconnect available: RSC uses NVIDIA Quantum InfiniBand while our production cluster is equipped with a RoCE (RDMA over converged Ethernet) solution based on commodity ethernet switches. Both of these solutions interconnect 200 GPUs and endpoints. The second difference is the per-GPU power consumption cap — RSC uses 400W while our production cluster uses 350W. With this two-cluster setup, we were able to compare the suitability of these different types of interconnect for large scale training. RoCE (which is a more affordable, commercial interconnect network)
-```

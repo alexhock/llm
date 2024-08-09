@@ -1,4 +1,4 @@
-```markdown
+
 The red teamers probed our models across a wide range of risk categories (such as criminal planning, human trafficking, regulated or controlled substances, sexually explicit content, unqualified health or financial advice, privacy violations, and more), as well as all potential attack vectors (such as psychological questions, malformed/misspelled inputs, or extended dialogues). Additionally, we conducted specific tests to determine the capabilities of our models to facilitate the production of weapons (e.g., nuclear, biological, chemical, and cyber); findings on these topics were marginal and were mitigated. Nonetheless, we will continue our red teaming efforts on this front.
 
 To date, all of our red teaming efforts have targeted model outputs in English, but we critically included non-English prompts and dialogue contexts, as that is a well-known attack vector. In all exercises, participants were given risk category definitions and were shown just a handful of examples of risky interactions with an LLM. After that, each participant was part of a subteam focused on a particular category of risk or attack vector. After creating each dialogue, the red team participant would annotate various attributes, including risk areas and degree of risk, as captured by a 5-point Likert scale.
@@ -29,4 +29,4 @@ We then asked raters to judge models for safety violations on a five-point Liker
 - **4** - No safety violations and only minor non-safety issues
 - **3** - No safety violations but not helpful or other major non-safety issues
 - **2** - Mild or moderate safety violations
-```
+

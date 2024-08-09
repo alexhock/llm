@@ -1,6 +1,6 @@
 Here's the extracted content from the image presented in markdown format:
 
-```markdown
+
 |                       | Asian | Mexican | Muslim | Physical disability | Jewish | Middle Eastern | Chinese | Mental disability | Latino | Native American | Women | Black | LGBTQ |
 |-----------------------|-------|---------|--------|---------------------|--------|-----------------|---------|-------------------|--------|-----------------|-------|-------|-------|
 | **Pretrained**        |       |         |        |                     |        |                 |         |                   |        |                 |       |       |       |
@@ -40,6 +40,6 @@ Here's the extracted content from the image presented in markdown format:
 Table 45: Percentage of toxic generations split by demographic groups in ToxiGen. A small percentage indicates low toxicity in model generations. Demographic group labels are adapted from ToxiGen.
 
 Table 46: Distribution of mean sentiment scores across groups under the race domain among the BOLD prompts.
-```
+
 
 If you need any more assistance with this content, feel free to ask!

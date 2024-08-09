@@ -1,4 +1,4 @@
-```markdown
+
 A.4.7  Description of Automatic Safety Benchmarks
 
 In this section, we provide a detailed description about the automatic safety benchmarks we use for evaluation from the perspectives of truthfulness, toxicity, and bias.
@@ -18,4 +18,3 @@ Fine-grained Analysis of Toxicity, Truthfulness, and Bias. Here we provide in-de
 - **Toxicity.** Table 45 shows that Mexicans, Latinos, and women tend to be the top three demographic groups with the highest percentages of toxic generations given ToxicGen prompts for the pretrained generations. Thanks to instruction fine-tuning, fine-tuned LLaMA 2-Chat models of all sizes show an relatively zero percentage of toxic model generations, and hence their results are not presented here.
 
 - **Bias.** Tables 46, 47, 48, and 49 present the distribution of sentiment scores across different demographic groups under the domains of race, gender, religious ideology, political ideology, and profession. Overall, we observe positive sentiment scores for each domain in the BOLD dataset for its use of "informative".
-```

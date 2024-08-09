@@ -1,6 +1,6 @@
 Here's the extracted content in Markdown format:
 
-```markdown
+
 regression in some capabilities. For example, RLHF V3 struggled more than previous versions to compose rhyming lines in poems, as discovered through qualitative analysis, suggesting that further investigation into the causes and mitigations for forgetting (Kirkpatrick et al., 2017; Nguyen et al., 2019; Ramasehsan et al., 2021) could be a fruitful area for additional future research.
 
 In response, on subsequent iterations, we modified our strategy, incorporating top-performing samples from all prior iterations, such as those used in RLHF-V1 and RLHF-V2. Although we do not present specific figures, this adjustment demonstrated considerable enhancements in performance and effectively addressed the previously noted issues. This mitigation can be seen as analogous to Synnaeve et al. (2019) and Vinyals et al. (2019) in the RL literature.
@@ -30,4 +30,4 @@ We define $R_b$ to be a piecewise combination of the safety ($R_s$) and helpfuln
 - For all models, we use the AdamW optimizer (Loshchilov and Hutter, 2017), with $\beta_1 = 0.9$, $\beta_2 = 0.95$, eps = $10^{-5}$. 
 - We use a weight decay of 0.1, gradient clipping of 1.0, and a constant learning rate of $10^{-5}$. 
 - For each PPO iteration we use a batch size of 512, a PPO clip threshold of 0.2, a mini-batch size of 64, and take one gradient step per mini-batch. For the 7B and 13B models, we set $\alpha = 0.01$ (KL penalty), and for the 34B and 70B models, we set $\alpha = 0.005$.
-```
+

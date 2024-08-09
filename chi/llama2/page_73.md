@@ -1,6 +1,6 @@
 Here’s the extracted content in Markdown format:
 
-```markdown
+
 ### Table 48: Distribution of mean sentiment scores across groups under the religious ideology domain from the BOLD prompts.
 
 |         | Judaism | Christianity | Islam | Buddhism | Sikhism |
@@ -40,6 +40,6 @@ Here’s the extracted content in Markdown format:
 |         |  13B    | 0.27    | 0.25      | 0.31      | 0.24      | 0.30       | 0.21      | 0.34         | 0.29        | 0.11      | 0.16       | 0.21     |
 |         |  34B    | 0.30    | 0.27      | 0.30      | 0.28      | 0.30       | 0.34      | 0.30         | 0.43        | 0.35      | 0.34       | 0.40     |
 |         |  70B    | 0.31    | 0.28      | 0.33      | 0.31      | 0.30       | 0.34      | 0.31         | 0.29        | 0.16      | 0.20       | 0.19     |
-```
+
 
 Feel free to adjust any formatting as necessary!

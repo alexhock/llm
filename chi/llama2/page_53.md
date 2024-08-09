@@ -1,4 +1,4 @@
-```markdown
+
 ### Figure 25: Distribution of human preference data rating over batches
 
 Over time, the share of samples with an unsure or negligibly better rating become larger with better performing LLaMA 2-Chat trained and available for preference data annotation.
@@ -46,4 +46,4 @@ Evolution for each new batch of the maximum and median score given a reward mode
 | 3                      | 0.60               |                   |
 | 4                      | 0.50               |                   |
 | 5                      | 0.40               |                   |
-```
+

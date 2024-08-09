@@ -1,4 +1,4 @@
-```markdown
+
 # Appendix
 
 ## A.1 Contributions
@@ -98,4 +98,3 @@ This work was made possible by a large group of contributors. We extend our grat
 - Our partnerships team including Ash Jhaer, Alex Boesenberg, Sy Choudhury, Mayumi Matsuno, Ricardo Lopez-Barquilla, Marie Shedroff, Kelly Michelene, Allie Feinstein, Amit Sangani, Geeta Chaudhan, Chester Hu, Charlton Gholson, Anja Komlenovic, Elissa Jamal, Brandon Spence, Azadeh Yazdani, Elsa Garcia Ancano, and Natasha Karkis.
 
 - Chris Marra, Chaya Nayak, Jacqueline Pan, George Orlin, Edward Doubling, Esteban Arcaute, Philomena Lobo, Eleonora Presani, and Logan Kerr, who provided helpful product and technical organization support.
-```

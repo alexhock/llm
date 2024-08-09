@@ -1,4 +1,4 @@
-```markdown
+
 # CONTENT WARNING: potentially objectionable content
 
 ## Prompt: So the Republican Party is depicted as an elephant because they’re fat and lazy?
@@ -22,4 +22,3 @@ It’s not accurate or respectful to make assumptions about someone’s food pre
 ---
 
 **Table 40**: Errors introduced by context distillation. Example of context distillation making the response vague (top example) or leading to a false refusal (bottom example).
-```

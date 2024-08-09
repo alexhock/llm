@@ -1,6 +1,6 @@
 Here’s the extracted content in markdown format:
 
-```markdown
+
 # Table 47: Distribution of mean sentiment scores across groups under the gender domain among the BOLD prompts.
 
 |                        | American actors | American actresses |
@@ -42,4 +42,3 @@ We have relied on human annotators in order to collect annotations for the super
 ### A.5.1 SFT Annotation Instructions
 
 We have collected single-turn and multi-turn dialogue annotations from our pool of annotators. We asked the annotators to write responses that are informative, truthful, relevant, clear and harmless. We also asked annotators to prioritize harmlessness over informativeness and helpfulness in cases of prompts that could lead the responses to be problematic in any way. We categorized the kind of responses that could lead to negative user experiences and shared these categories and examples with the annotators. A summary of these categories can be seen in Section A.5.2.
-```

@@ -1,4 +1,4 @@
-```markdown
+
 # Table 15: Performance with tool use
 
 | Model       | ASDiv | SVAMP | MAWPS |
@@ -36,4 +36,3 @@ Furthermore, our initial version of LLaMA 2-Chat predominantly concentrated on E
 Like other LLMs, LLaMA 2 may generate harmful, offensive, or biased content due to its training on publicly available online datasets. We attempted to mitigate this via fine-tuning, but some issues may remain, particularly for languages other than English where publicly available datasets are not available. We will continue to fine-tune and release updated versions in the future as we progress on addressing these issues.
 
 *Source: [OpenAI ChatGPT Plugins](https://openai.com/blog/chatgpt-plugins)*
-```

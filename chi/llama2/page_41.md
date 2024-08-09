@@ -1,6 +1,6 @@
 Here is the extracted content formatted in Markdown:
 
-```markdown
+
 - Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rowan Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.
 
 - James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, André A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. Proceedings of the National Academy of Sciences, 114(13):3521–3526, 2017.
@@ -38,6 +38,6 @@ Here is the extracted content formatted in Markdown:
 - Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasquez, Ben Hutchinson, Elena Spitzer, Muliya Debroah Raj, and Timnit Gebru. Model cards for model reporting. CoRR, abs/1810.09363, 2018. URL: http://arxiv.org/abs/1810.09363.
 
 - MosaicML. NLP Team et al. Introducing mpt-7b: A new standard for open-source, commercially usable lms, 2023.
-```
+
 
 Feel free to modify any part of it as needed!

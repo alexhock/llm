@@ -1,6 +1,6 @@
-Here's the extracted content in markdown format:
 
-```markdown
+
+
 | Model  | Size | GSM8k | MATH |
 |--------|------|-------|------|
 | MPT    | 7B   | 6.8   | 3.0  |
@@ -35,4 +35,3 @@ High quality data is critical for alignment as discussed for SFT. We worked clos
 We ablated the ranking loss with the preference rating-based margin term for the helpless reward model. We tried two variants of |m| with different magnitude for the margin term in Eq 2 as listed open-source 27 and compare them against the baseline without the margin term. We report both their per-rating and average accuracy on the Meta Helpful test set in Table 28. We observe that the margin term can indeed help the reward model perform better on more separable comparison pairs and a larger margin can boost it further. However, the larger margin also regresses performance on similar samples.
 
 We further evaluated the impact of margin-based loss on reward score distribution shifts. We plot the histogram of reward scores from the test set in Figure 27. Essentially, the margin term pushes the reward.
-```

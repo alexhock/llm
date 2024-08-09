@@ -1,4 +1,4 @@
-```markdown
+
 ## Figure 16: Context Distillation Analysis
 
 ### (a) Impact on Safety RM Score
@@ -18,4 +18,4 @@ However, we observed that context distillation can sometimes degrade response qu
 Given how broad the capabilities of LLMs are and how varied their training data is, it is insufficient to identify risks solely via a static factor usage and analysis. Rather, as has been done for other LLMs, we perform various kinds of proactive risk identification, colloquially called "red teaming", based on the term commonly used within computer security. This kind of granular analysis is very important because safety is a long-tail issue, in which even very unrepresented edge cases can cause noticeable problems. Even if quantitative scores report good results, these types of qualitative signals allow us to recognize and target specific patterns in a more comprehensive way.
 
 We conducted a series of red teaming with various groups of internal employees, contract workers, and external vendors. These teams included over 350 people, including domain experts in cybersecurity, electronic fraud, social media misinformation, legal, policy, civil rights, ethics, software engineering, machine learning, responsible AI, and creative writing. They also included individuals representative of a variety of socioeconomic, gender, ethnicity, and racial demographics.
-```
+

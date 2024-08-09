@@ -1,6 +1,6 @@
 Sure! Here is the extracted content formatted as Markdown:
 
-```markdown
+
 Yet, when it comes to the "production-ready" LLMs such as ChatGPT, Bard, and Claude, there's a marked distinction in performance and usability. These models rely on intricate tuning techniques to align with human preferences (Guidabande et al., 2023), a process that is still being explored and refined within the open-source community.
 
 ### Instruction Tuning
@@ -17,6 +17,6 @@ Investigations into red teaming reveal specific challenges in tuned LLMs, with s
 
 ## 7 Conclusion
 In this study, we have introduced LLaMA 2, a new family of pretrained and fine-tuned models with scales of 7 billion to 70 billion parameters. These models have demonstrated their competitiveness with existing open-source chat models, as well as competency that is equivalent to some proprietary models on evaluation sets we examined, although they still lag behind other models like GPT-4. We meticulously elaborated on the methods and techniques employed in achieving our models, with a heavy emphasis on their alignment with the principles of helpfulness and safety. To contribute more significantly to society for the pace of research, we have responsibly opened access to LLaMA 2 and LLaMA-2-Chat. As part of our ongoing commitment to transparency and safety, we plan to make further improvements to LLaMA 2 and LLaMA-2-Chat in future work.
-```
+
 
 If you need any changes or further assistance, let me know!

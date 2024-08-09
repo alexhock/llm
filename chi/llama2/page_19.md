@@ -1,6 +1,6 @@
 Sure! Here’s the extracted content in Markdown format:
 
-```markdown
+
 ## Figure 12: Human evaluation results for LLaMA 2-Chat models compared to open- and closed-source models across ~4,000 helpfulness prompts with three raters per prompt.
 
 The largest LLaMA 2-Chat model is competitive with ChatGPT. LLaMA 2-Chat 70B model has a win rate of 36% and a tie rate of 31.5% relative to ChatGPT. LLaMA 2-Chat 70B model outperforms PaLM-bison chat model by a large percentage on our prompt set. More results and analysis is available in Section A.3.7.
@@ -19,6 +19,6 @@ While our results indicate that LLaMA 2-Chat is on par with ChatGPT on human eva
 - Diversity of the prompts could be another factor in our results. For example, our prompting set does not include any coding- or reasoning-related prompts.
 - We only evaluate the final generation of a multi-turn conversation. A more interesting evaluation could be to ask the models to complete a task and rate the overall experience with the model over multiple turns.
 - Human evaluation for generative models is inherently subjective and noisy. As a result, evaluation on a different set of prompts or with different instructions could result in different results.
-```
+
 
 Feel free to use or modify as needed!

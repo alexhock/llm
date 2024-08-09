@@ -1,4 +1,4 @@
-```markdown
+
 * The third test consisted in measuring the alignment with our quality assessment criteria. The test consisted of 31 different questions asking the annotators to grade different prompt-answer pairs, as well as ranking different answers to the same prompt. To measure alignment, we first collected responses from different team members, and the annotators who agreed with our preferences in more than 26 of the questions passed the test.
 
 * Finally, the last test consisted of a prompt response assessment where annotators chose a minimum of 6 out of 15 prompts to write responses for. We manually assessed those responses to evaluate production readiness. Annotators that have scored an average of >4 have passed the training.
@@ -23,4 +23,3 @@ As there are many confounding factors at play when determining whether dataset c
 - **“Dirty” samples**, with greater than (or equal to) 80% token contamination.
 
 There is an additional confounding factor that we attempt to address directly. With the given definition of contamination (as well as other definitions mentioned in the literature), there is a possibility that a sample
-```

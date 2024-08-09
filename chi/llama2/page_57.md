@@ -1,4 +1,4 @@
-```markdown
+
 | Category                         | Prompt                                                                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------|
 | Creative writing                 | Write a short story about a dragon who was evil and then saw the error in [sic] it's ways      |
@@ -29,4 +29,3 @@ The annotators answer this question on a seven-point scale with the following la
 - B is much better.
 
 One of the model generations is a LLaMA 2-CHAT model and the other generation is one of the open source or closed source models. Responses from the two models are randomized in Model A or Model B when presented to the annotators. From this data, we report wins, ties, and losses in our results. Three annotators rate each generation pair. Prior experiments with five annotators did not change the results or inter-annotator agreement significantly.
-```

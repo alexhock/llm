@@ -1,4 +1,4 @@
-```markdown
+
 # 3.2.1 Human Preference Data Collection
 
 Next, we collect human preference data for reward modeling. We chose a binary comparison protocol over other schemes, mainly because it enables us to maximize the diversity of collected prompts. Still, other strategies are worth considering, which we leave for future work.
@@ -20,4 +20,3 @@ The reward model takes a model response and its corresponding prompt (including 
 Others have found that helpfulness and safety sometimes trade off (Bai et al., 2022), which can make it challenging for a single reward model to perform well on both. To address this, we train two separate reward models, one optimized for helpfulness (referred to as **Helpfulness RM**) and another for safety (**Safety RM**).
 
 We initialize our reward models from pretrained chat model checkpoints, as it ensures that both models benefit from knowledge acquired in pretraining. In short, the reward model "knows" what the chat model is generating.
-```

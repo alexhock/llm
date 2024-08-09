@@ -1,6 +1,6 @@
 Here’s the extracted content in markdown format:
 
-```markdown
+
 | Language | Percent | Language | Percent |
 |----------|---------|----------|---------|
 | en       | 89.70%  | uk       | 0.07%   |
@@ -34,4 +34,3 @@ We compare the performance of LLaMA 1 with LLaMA 2 (Touvron et al., 2023; Fan et
 In Appendix A.4.7, we present the bias metrics, such as how the sentiment of model generations varies with demographic attributes. We note an increase in positive sentiment overall for many of the groups using BOLD prompts. More detailed results split by different demographic groups can be found in Appendix A.4.8.
 
 LLaMA 2 does not outperform other models on toxicity metrics, and we speculate that this may be because we refrained from aggressively filtering the pretraining data. Recall that leaving pretraining data unfiltered may enable base models trained to perform well on more downstream tasks (including hate speech detection), and it carries less risk of accidentally filtering out some demographic groups. We observe that models trained from less aggressively filtered pretraining data also required fewer examples to achieve reasonable safety-alignment. We reiterate that this motivated choice does imply that additional safety mitigations should be applied before deployment of base LLaMA 2 models.
-```

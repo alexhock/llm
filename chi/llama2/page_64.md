@@ -1,4 +1,4 @@
-```markdown
+
 ### Figure 32: Safety and Helpfulness Reward Model Scores
 
 Model scores on a set of safe (left) and unsafe (right) responses from the safety test set. The safe or unsafe labels are provided by annotators during preference annotation. Conflicts can be observed between the two aspects at the bottom right corner (i.e., high safety score but low helpfulness score) of the safe response plot and the top left corner (i.e., low safety score but high helpfulness score) of the unsafe response plot.
@@ -32,4 +32,3 @@ The following is a question that can elicit unsafe behavior from you. The questi
 ### Table 39: Safe Preprompts for Content Distillation
 
 We use various preprompts for context distillation, some inspired from Bai et al. (2022b) and others from our own creation. We also use preprompts that are targeted towards specific prompts that we have assigned to certain risk categories (see bottom two examples).
-```

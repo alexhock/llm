@@ -1,4 +1,4 @@
-```markdown
+
 | Model            | Parameters | % (true + info) | % true | % info |
 |------------------|------------|------------------|--------|--------|
 | **Pretrained**    |            |                  |        |        |
@@ -27,4 +27,3 @@
 **Limitations of Benchmarks.** It is important to note that these evaluations using automatic metrics are by no means fully comprehensive, due to the complex nature of toxicity and bias in LLMs, but the benchmarks selected are representative of our understanding that LLAMA 2-CHAT improves on critical aspects of LLM safety. Benchmark evaluation is important for assessing all models, including chat-oriented LLMs, because benchmarks provide a standardized and measurable way to compare different models and track progress in the field. 
 
 However, it's crucial to be aware of the benchmarks' limitations in evaluating safety. Most of them were initially developed for pretrained LLMs, and there are certain limitations to consider when using them to measure the safety of fine-tuned/chat-oriented models. For example, the benchmarks may not adequately cover adversarial inputs or toxic content specifically designed to exploit vulnerabilities, and they may not cover all demographic categories. It is advisable to monitor disaggregated metrics and benchmarks in order to better understand and analyze the varied behavior exhibited by LLMs across different demographic groups.
-```

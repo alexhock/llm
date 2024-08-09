@@ -1,6 +1,6 @@
-Sure! Here's the extracted content in markdown format:
+Sure! 
 
-```markdown
+
 # Table 22: 
 (Left) NaturalQuestions. Exact match performance. (Right) TriviaQA. Zero-shot and few-shot exact match performance on the filtered dev set. For TriviaQA, we evaluate on Wiki validation subset.
 
@@ -49,4 +49,4 @@ Sure! Here's the extracted content in markdown format:
 | LLaMA 2    | 13B  | 34.1 | 21.7     | 23.0  | 21.3    | 41.0    | 54.6    | 30.7            | 27.3    |
 |            | 34B  | 34.3 | 19.3     | 20.3  | 21.5    | 42.1    | 27.2    | 32.7            | 32.7    |
 |            | 70B  | 54.2 | 42.5     | 25.7  | 70.2    | 76.6    | 58.9    | 39.4            | 41.8    |
-```
+

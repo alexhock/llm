@@ -1,4 +1,4 @@
-```markdown
+
 ### Figure 7: Max and median reward among N samples, N ∈ [1, ..., 100] averaged over our training set of prompts. 
 
 The delta between max and median can be interpreted as potential gain with Rejection Sampling.
@@ -22,4 +22,4 @@ Until RLHF (V4), we used only Rejection Sampling fine-tuning, and after that, we
 We perform rejection sampling only with our largest 708 LLaMA-2-Chat. All smaller models are fine-tuned on rejection sampled data from the larger model, thus distilling the large-model capabilities into the smaller ones. We leave further analysis of the effect of this distillation for future work.
 
 At each iterative stage, we sample K answers for each prompt from the most recent model. We score each sample given the best reward model accessible at the time of the experiment, and then select the best answer for a given prompt. In earlier versions of our model, up to RLHF V3, our approach was to combine answer selection solely to the "bag" of samples gathered from the preceding iteration. For example, RLHF V3 was trained using only samples from RLHF V2. However, despite continuous improvement, this method led to a
-```
+

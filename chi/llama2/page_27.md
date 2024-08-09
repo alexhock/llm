@@ -1,4 +1,4 @@
-```markdown
+
 # Table 13: Examples of Context Distillation with Generic Premprompt and Prompt with Answer Template
 
 ## Generic Premprompt
@@ -25,4 +25,3 @@ We encourage LLaMA 2-CHAT to associate adversarial prompts with safer responses 
 
 ### Context Distillation with Answer Templates
 During the prompt collection phase, we also asked annotations to label prompts according to risk categories, which enables even more targeted preprompts. Specifically, this allows us to provide some dedicated answer templates of how adversarial prompts should be addressed, based on each identified risk category. 
-```

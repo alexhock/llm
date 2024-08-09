@@ -1,4 +1,4 @@
-```markdown
+
 | TruthfulQA ↑ | ToxiGen ↓ |
 |---------------|-----------|
 | MPT           |           |
@@ -37,4 +37,3 @@ In this section, we describe our approach to safety fine-tuning, including safet
 Based on limitations of LLMs known from prior work, we design instructions for our annotation team to create adversarial prompts along two dimensions: **risk category**, or potential topic about which the LLM could produce unsafe content; and **attack vector**, or question style to cover different varieties of prompts that could elicit bad model behaviors.
 
 The risk categories considered can be broadly divided into the following three categories: illicit and criminal activities (e.g., terrorism, theft, human trafficking); hateful and harmful activities (e.g., defamation, self-harm, eating disorders, discrimination); and unqualified advice (e.g., medical advice, financial advice, legal advice).
-```

@@ -1,6 +1,6 @@
 Here’s the extracted content in markdown format:
 
-```markdown
+
 ## Table 2: CO₂ emissions during pretraining
 
 | Time        | Power (GPU Hour) Consumption (W) | Carbon Emitted (tCO₂eq) |
@@ -29,6 +29,6 @@ In Table 3, we summarize the overall performance across a suite of popular bench
 
 *https://sustainability.fb.com/2021-sustainability-report/
 *https://www.mosaicml.com/blog/mpt-7b
-```
+
 
 This markdown includes the table and the related text extracted from the image.

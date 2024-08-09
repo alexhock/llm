@@ -1,4 +1,4 @@
-```markdown
+
 # 4 Safety
 
 **WARNING: This section contains examples of text that may be considered rude, offensive, or upsetting.**
@@ -20,4 +20,3 @@ Bias in model generations may result from biases inherited from the training dat
 ### Demographic Representation: Identities
 
 We also analyze the representation of different demographic groups in the pretraining data by measuring rates of usage of demographic identity terms from the HolisticBias dataset (Smith et al., 2022) as a proxy. We configure frequencies for each descriptor term in the pretraining corpus. We group descriptors into 5 areas (Religion, Gender and Sex, Nationality, Race and Ethnicity, and Sexual Orientation), and show the top 5 terms in each as shown in Table 8. In the top 5 terms, we remove a few terms such as “straight”, “white”, and “black,” because these terms have risks beyond demographic mentions (e.g., as taboo terms). We also delineate across lines, for gender as found in both Gender and Sex and Sexual Orientation. For Gender and Sex, while pronouns are mentioned in fewer documents, the term “female” is present in a larger percentage of documents. This could imply that while there is less frequent contact about She pronouns, comments about “females” are more prevalent, perhaps reflecting the differences in linguistic markers of these terms (Blodgett et al., 2021). For Sexual Orientation, the top five terms all relate to LGBTQ+ identities. For Nationality, Race and Ethnicity, and Religion, we observe a Western skew (Bhatt et al., 2022). For instance, the term “American” is mentioned in 69.4% of the references, the term “European” is more prevalent than other race and ethnicity, and “Christian” is the most represented religion followed by “Catholic” and “Jesuit”.
-```

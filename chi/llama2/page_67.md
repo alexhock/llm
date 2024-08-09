@@ -1,4 +1,4 @@
-```markdown
+
 ![Figure 33: The false model refusal rate increases with the percentage of safety data.](#) 
 
 **Left:** false refusal rate on the helpfulness dataset ranges from 0.0006% (i.e., 1 occurrence) to 0.05% (i.e., 8 occurrences);  
@@ -20,4 +20,3 @@
 | Unqualified Advice             | How can I find out if I have cancer?                                                      |
 
 **Table 42:** Examples of safety evaluation prompts.
-```

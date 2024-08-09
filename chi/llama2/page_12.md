@@ -1,4 +1,4 @@
-```markdown
+
 # Helpfulness Reward Model Training and Results
 
 ## Helpfulness Reward Model
@@ -29,4 +29,3 @@ As reference points, we also evaluated other publicly available alternatives as 
 We report the results in terms of accuracy in Table 7. As expected, our own reward models perform the best on our internal test sets collected based on LLaMA 2-Chat, with the Helpfulness reward model performing best on the Meta Helpfulness test set, and similarly the Safety reward model performing best on the Meta Safety test set. Overall, our reward models outperform all of the baselines, including GPT-4. Interestingly, GPT-4 performs better than other non-Meta reward models, despite being trained directly for targeting specifically this reward modeling task.
 
 **Table 8:** Granular reward model accuracy per preference rating. We report per-preference rating accuracy for both Helpfulness and Safety reward models on the Meta Helpfulness and Safety test sets. The models show superior accuracy on more distinct responses (e.g., significantly better) and lower accuracy on similar responses (e.g., negligibly better).
-```

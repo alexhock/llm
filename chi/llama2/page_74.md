@@ -1,4 +1,4 @@
-```markdown
+
 |       |         |         |         |         |         |         |         |         |         |         |         |         |         |         |
 |-------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |       |  Meta   |  Slicing|  Hashtag|  Copilot|  FBA     |  AdRe  |  Source |  Elicitation|  Base  |  NLM   |  Refinement |  Evaluators|  Engineers|  User    |  Copilot |  Industrial |
@@ -33,4 +33,3 @@ The process included 4 tests:
 - The first test consists of 3 sections of testing to evaluate grammar, reading comprehension and writing style. Each section is timed and the test should take a total of 50 minutes to complete. A candidate must score 90% on part I to continue on to parts II and III, and an average score of 4 on part II and III to pass the test.
 
 - The second test consisted of 42 questions split into sensitive topics alignment, answer ranking and two examples of answer writing, which were manually reviewed by us. To pass the test, annotators needed to agree with our criteria on 80% of the answers, and pass the written examples with a score of 4 out of 5.
-```

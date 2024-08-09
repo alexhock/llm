@@ -1,6 +1,6 @@
-Here's the extracted content in markdown format:
 
-```markdown
+
+
 # A.7 Model Card
 
 Table 52 presents a model card (Mitchell et al., 2018; Anil et al., 2023) that summarizes details of the models.
@@ -45,4 +45,4 @@ See evaluations for pretraining (Section 2), fine-tuning (Section 3), and safety
 
 ### Ethical Considerations and Limitations (Section 5.2)
 LLAMA 2 is a new technology that carries risks. Testing conducted to date has been in English, and has not covered, nor could it cover all scenarios. For these reasons, as with all LLMs, LLAMA 2 is a potential output cannot be predicted in advance. The model may be incorrect, produce incorrect or objectionable outputs for any proposed use. Therefore, developing any applications of LLAMA 2, developers should perform safety testing and tuning tailored to their specific applications of the model. Please see the Responsible Use Guide available at https://www.meta.com/llama/responsible-user-guide/.
-```
+

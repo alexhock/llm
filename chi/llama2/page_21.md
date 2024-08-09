@@ -1,4 +1,4 @@
-```markdown
+
 # Gender Pronouns and Grammatical Person
 
 | Gender Pronouns | Percentage |
@@ -70,4 +70,3 @@ We measure the prevalence of toxicity in the English-language portion of the pre
 # Language Identification
 
 While our pretraining data is mostly English, it also includes text from a small number of other languages. Table 10 shows the distribution of languages in our corpus, subsetted to those found in more than 0.005% of the documents. Our analysis uses fastText (Bojanowski et al., 2016) language identification tool and a threshold of 0.5 for the language detection. A training corpus with a majority in English means that the model may not be suitable for use in other languages.
-```

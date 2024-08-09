@@ -1,4 +1,4 @@
-```markdown
+
 # Contamination Analysis Results for Affected Datasets
 
 ## Dataset Overview
@@ -39,4 +39,3 @@ Results from the analysis indicate that HellaSwag and MMLU-Humanities may have b
 ## Table Reference
 
 Results may have variations due to segmentation of the dataset and others. This is summarized in Table 51, validating that model performance can be influenced by contamination within training datasets.
-```

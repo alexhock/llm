@@ -1,4 +1,4 @@
-```markdown
+
 # References
 
 Daron Acemoglu and Pascual Restrepo. Artificial intelligence, automation, and work. In *The economics of artificial intelligence: An agenda*, pages 197–236. University of Chicago Press, 2018.
@@ -22,4 +22,3 @@ April H. Belknap, Aiden Williams, and Andrew Cimpian. Based on billions of words
 Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Margaret Mitchell. On the dangers of stochastic parrots: Can language models be too big? In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, pages 610–623, 2021.
 
 Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shamgruet Stantchev. On the dangers of stochastic parrots: Can language models be too big? In *Proceedings of the 2021 ACM conference on fairness, accountability, and transparency*, pages 610–623, 2021.
-```

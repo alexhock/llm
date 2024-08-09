@@ -1,4 +1,4 @@
-```markdown
+
 ### Table 6: Statistics of human preference data for reward modeling
 
 | Dataset                 | Num. of Comparisons per Dialogue | Avg. # Turns | Avg. # Tokens | Avg. # Tokens in Prompt | Avg. # Tokens in Response |
@@ -40,4 +40,3 @@ where \( m(y) \) is a discrete function of the preference rating. Naturally, we 
 We combine our newly collected data with existing open-source preference datasets to form a larger training dataset. Initially, open-source datasets were used to bootstrap our reward models while we were in the process of collecting preference annotation data. We noted that in this context, the role of reward signals is to learn human preference for LLaMA 2-Chat outputs rather than any model outputs. However, in our experiments, we do not observe negative transfer from the open-source preference datasets. Thus, we have decided to keep them in our data mixture, as they could enable better generalization for the reward model and prevent reward hacking, i.e., LLaMA 2-Chat taking advantage of some weaknesses of our reward, and so artificially linking the score despite performing less well.
 
 With training data available from different sources, we experimented with different mixing recipes for both Helpfulness and Safety reward models to ascertain the best settings. After extensive experimentation, the ...
-```

@@ -1,4 +1,4 @@
-```markdown
+
 ## Figure 4: Training of LLaMA 2-Chat
 
 This process begins with the pretraining of LLaMA 2 using publicly available online sources. Following this, we create an initial version of LLaMA 2-Chat through the application of supervised fine-tuning. Subsequently, the model is iteratively refined using Reinforcement Learning with Human Feedback (RLHF) methodologies, specifically through rejection sampling and Proximal Policy Optimization (PPO). Throughout the RLHF stage, the accumulation of iterative reward modeling data in parallel with model enhancements is crucial to ensure the reward models remain within distribution.
@@ -20,4 +20,3 @@ We adopt most of the pretraining setting and model architecture from LLaMA 1. We
 #### Hyperparameters
 
 We trained using the AdamW optimizer (Loshchilov and Hutter, 2017), with β₁ = 0.9, β₂ = 0.95, ε = 10⁻⁷. We use a cosine learning rate schedule, with a warmup of 2000 steps, and decay the final learning rate down to 10% of the peak learning rate. We use a weight decay of 1.0 and gradient clipping of 1.0. Figure 5 (a) shows the training loss for LLaMA 2 with these hyperparameters.
-```

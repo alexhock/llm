@@ -1,6 +1,6 @@
 Sure! Here’s the extracted content in markdown format:
 
-```markdown
+
 ## 4.2.2 Safety Supervised Fine-Tuning
 
 In accordance with the established guidelines from Section 4.2.1, we gather prompts and demonstrations of safe model responses from trained annotators, and we use the data for supervised fine-tuning in the same manner as described in Section 3.1. An example can be found in Table 5.
@@ -22,4 +22,4 @@ Safety is inherently a long-tail problem, where the challenge comes from a small
 A tension between helpfulness and safety of LMs has been observed in previous studies (Bai et al., 2022a). To better understand how the addition of safety training data affects general model performance, especially helpfulness, we investigate the trends in safety data scaling by adjusting the amount of safety data used in the RLHF stage. In this ablation experiment, we keep the amount of helpfulness training data unchanged (≈ 0.9M samples) and gradually increase the amount of safety data used in model tuning, ranging from 0% to 100% (≈ 0.1M samples). For the specific training data mix recipe, we follow the procedure described in Section 3.1 and fine-tune LLaMA 2: a pretrained model for 2 epochs.
 
 We eventually obtain 6 model variants trained with 0%, 1%, 10%, 25%, 50%, and 100% of the total safety data. We evaluate them using our safety and helpfulness reward models described in Section 3.2.2 for
-```
+

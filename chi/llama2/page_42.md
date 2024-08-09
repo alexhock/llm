@@ -1,6 +1,6 @@
 Sure! Here is the extracted content formatted in Markdown:
 
-```markdown
+
 Reichiro Nakano, Jacob Hilton, Suhir Balaji, Jeff Wu, Lonbrow Ounyabrown, Christina Kim, Christopher Hesse, Shantanu Jain, Vinit Kasaravalli, Michael Sanders, Xu Jiang, Karl Cobbe, Tyra Eloundou, Gretchen Krueger, Kevin Button, Matthew Knight, Benjamin Chess, and John Schulman. **WebGPT: Browser-assisted question-answering with human feedback.** In *arXiv*, 2021.
 
 Cuong V. Nguyen, Alessandro Achille, Michael T. Lam, Tal Hassner, Yuya Mahadevan, and Stefano Saetta. **Toward understanding catastrophic forgetting in continual learning.** *arXiv preprint arXiv:1908.01709*, 2019. [DOI: 10.48550/arXiv.1908.01709](https://doi.org/10.48550/arXiv.1908.01709).
@@ -30,6 +30,6 @@ Teven Le Scao, Angela Fan, Christopher Akiki, Elie Zalloua, Suara Ilek, Daniel H
 Timo Schick, Jane Dwyer-Wid, Roberto Desisi, Roberta Railean, Maria Lemole, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. **Toolformer: Language models can teach themselves to use tools.** *arXiv preprint arXiv:2302.04761*, 2023.
 
 John Schulman, Filip Wolski, Prafula Dhariwal, Alec Radford, and Oleg Klimov. **Proximal policy optimization algorithms.** *arXiv preprint arXiv:1707.06347*, 2017.
-```
+
 
 Feel free to modify it further if needed!

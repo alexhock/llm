@@ -1,4 +1,4 @@
-```markdown
+
 | Task                | BoolQ | PIQA | SIQA | Hella-Swag | ARC-C | ARC-H | NQ  | TQA | MMLU | CSM8K | Human-Eval |
 |---------------------|-------|------|------|------------|-------|-------|-----|-----|-------|-------|------------|
 | MHA                 | 71.0  | 79.3 | 48.2 | 75.1       | 71.2  | 43.0  | 12.4| 44.7| 28.0  | 4.9   | 7.9        |
@@ -26,4 +26,3 @@ Therefore, based on the ablation results and ease of scaling inference, for the 
 **Reading Comprehension.** In Table 23 we report zero-shot and few-shot results on SQUAD and zero-shot one-shot experiments on QUAC. Here LLaMA 2 performs best on all evaluation settings and models except the QUAC 0-shot where LLaMA 3 30B performs slightly better.
 
 **Exams.** In Table 24, we present fine-grained results from the English part of the AGI Eval (Zhong et al., 2023) benchmark. AGI Eval is a collection of standardized exams in different subjects.
-```

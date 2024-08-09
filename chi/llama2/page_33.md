@@ -1,4 +1,4 @@
-```markdown
+
 # Figure 21
 **RLHF learns to adapt the temperature with regard to the type of prompt.** Lower Self-BLEU corresponds to more diversity: RLHF eliminates diversity in responses to factual prompts but retains more diversity when generating responses to creative prompts. We prompt each model with a diverse set of 10 creative and 10 factual instructions and sample 25 responses. This is repeated for the temperatures \( T \in \{ 0.4 | 1.0 | 1.2 | 1.4 \} \) for each of the 25 responses we compute the Self-BLEU metric and report the mean and standard deviation against the temperature.
 
@@ -12,4 +12,3 @@ The observation suggests that LLMs have internalized the concept of time to a gr
 
 ## Tool Use Emergence
 The integration of LLMs with tools is a growing research area, as highlighted in Mialon et al. (2023). The approach devised in Toolformer (Schick et al., 2022) entails the sampling of millions.
-```

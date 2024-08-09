@@ -1,4 +1,4 @@
-```markdown
+
 # References
 
 1. Thomas Scialom, Paul-Alexis Dray, Sylvain Lamprier, Benjamin Piwowarski, and Jacopo Staiano. Discriminative adversarial search for abstractive summarization. In Hal Daumé III and Aarti Singh, editors, Proceedings of the 37th International Conference on Machine Learning, volume 119 of *Proceedings of Machine Learning Research*, pages 8555–8564. PMLR, 13–18 Jul 2020. URL: https://proceedings.mlr.press/v119/scialom20a.html.
@@ -38,4 +38,3 @@
 18. Rohan Tauri, Ishaan Guliaarani, Tianyi Zhang, Yanzh Wang, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsuhiro B. Hashimoto. Stanford Alpaca: An instruction-following Llama model. https://github.com/tatsu-lab/stanford_alpaca, 2023.
 
 19. Ross Taylor, Marcin Kardaś, Guilleu Ccuruill, Thomas Scialom, Anthony Harshborn, Elvis Savaria, Andrew Poulton, Viktor Kerkes, and Robert Stojnic. Galactica: A large language model for science. *arXiv preprint arXiv:2211.09805*, 2022.
-```

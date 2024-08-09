@@ -1,4 +1,4 @@
-```markdown
+
 Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naaman Goyal, Eric Hambro, Faisal Azhar, Aurélien Rodriguez, Arnaud Bodin, Edouard Grave, and Guillaume Lample. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023.
 
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, John Atten, Ali A. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need, 2017.
@@ -33,4 +33,3 @@ Susan Zhang, Stephen Roller, Naaman Goyal, Mikel Artetxe, Moya Chen, Shuohui Che
 Yanli Zhao, Andrew Gu, Rohan Varma, Liang Luo, Chien-Chi Huang, Min Xu, Less Wright, Hamid Shojaeizadeh, Myke Ott, Sam Shleifer, Alban Desmaison, Can Bilgilu, Benjamin Geer, Yeqin Chauhan, Xindong Hua, and Shen Li. Pytorch biggraph: Experiences on scaling fully sharded data parallel, 2023.
 
 Yuanqing Zhou, Andrei Ion Muresan, Zewang Han, Keiran Paster, Silvio Tulis, Harsimran Chani, and Jimmy Hsu. Large language models are human-centric benchmark engineers. In The Eleventh International Conference on Learning Representations, 2022.
-```

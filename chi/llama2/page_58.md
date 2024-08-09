@@ -1,4 +1,4 @@
-```markdown
+
 ### Figure 31: Win rate of LLaMA 2-CHAT versus ChatGPT analyzed by number of turns (Left) in the prompt and word count (Right) for the prompt and generation combined. For the word count plot, we report the win rate for each quintile. The maximum total word count (prompt and generation) is 2432. We do not see any trends in win rate with either word count or turn count.
 
 ---
@@ -18,4 +18,4 @@ In Section 4.3, we study the impact of adding more safety data into model RLHF i
 
 #### A.4.3 English Pronouns
 The terms that we use for the pronoun analyses are consistent with the PaLM 2 paper (Anl et al., 2023);
-```
+

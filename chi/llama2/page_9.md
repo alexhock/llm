@@ -1,4 +1,4 @@
-```markdown
+
 ## 3.1 Supervised Fine-Tuning (SFT)
 
 - **Prompt:** Write a poem to help me remember the first 10 elements on the periodic table, giving each element its own line.  
@@ -34,4 +34,3 @@ For the fine-tuning process, each sample consists of a prompt and an answer. To 
 
 ## 3.2 Reinforcement Learning with Human Feedback (RLHF)
 RLHF is a model training procedure that is applied to a fine-tuned language model to further align model behavior with human preferences and instruction following. We collect data that represents empirically.
-```

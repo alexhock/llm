@@ -1,6 +1,6 @@
 Here's the extracted content formatted in Markdown:
 
-```markdown
+
 ## Figure 11: Evolution of LLaMA 2-Chat
 
 We show the evolution after multiple iterations fine-tuning for the win-rate % of LLaMA 2-Chat compared to ChatGPT. Left: the judge is our reward model, which may favor our model, and right, the judge is GPT-4, which should be more neutral.
@@ -15,6 +15,6 @@ Human evaluation is often considered the gold standard for judging models for na
 
 ### Results
 As shown in Figure 12, LLaMA 2-Chat models outperform open-source models by a significant margin on both single turn and multi-turn prompts. Particularly, LLaMA 2-Chat 7B model outperforms MPT-7B on 60% of the prompts. LLaMA 2-Chat 34B has an overall win rate of more than 75% against equivalently sized Vicuna-33B and Falcon 60B models.
-```
+
 
 Feel free to modify any part if needed!

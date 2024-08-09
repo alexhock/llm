@@ -1,6 +1,6 @@
 Sure! Here’s the extracted content in markdown format:
 
-```markdown
+
 ### Table 26: Statistics of Meta human preference data (Safety & Helpfulness) per batch.
 
 | Batch | Num. of Comparisons | Avg. # Turns per Dialogue | Avg. # Tokens per Example | Avg. # Tokens in Prompt | Avg. # Tokens in Response |
@@ -45,6 +45,6 @@ Sure! Here’s the extracted content in markdown format:
 ### A3.4 Ablation on Ranking Loss with Safety Auxiliary Loss for Reward Modeling
 
 We ablated the impact of the safety auxiliary loss with results on the Meta Safety test set shown in Table 29. As expected, the customized loss improves the recall of unsafe responses when we use a reward score of 0.5 as the threshold (negative before Sigmoid) and thus offers a better safety reward signal for RLHF. Teaching the model to discriminate between safe and unsafe model generations also improves model accuracy on three subcategories.
-```
+
 
 Feel free to modify or expand upon it as needed!

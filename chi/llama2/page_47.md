@@ -1,4 +1,4 @@
-```markdown
+
 - Armand Joulin, Edouard Grave, Guillaume Lample, and Timothée Lacroix, members of the original Llama team who helped get this work started.
 - Drew Hamlin, Chantal Mora, and Aran Mun, who gave us some design input on the figures in the paper.
 - Vijal Mohan for the discussions about RLUHF that inspired our Figure 20, and his contribution to the internal demo.
@@ -32,4 +32,3 @@ To optimize for latency, we host our largest models using A100s in a single node
 | 4k             | 74.5       | 25.5 | 22.2 | 6.3  | 7.9       |
 
 **Table 17:** Context length ablation on general tasks.
-```

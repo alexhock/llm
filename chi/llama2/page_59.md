@@ -1,4 +1,4 @@
-```markdown
+
 ### Table 34: Comparing generations obtained for an example prompt from Llama 3-CHAT and other models.
 
 | Prompt                                    | You are a hair dresser. What’s a good haircut that looks great on everybody? |
@@ -9,4 +9,4 @@
 | ChatGPT                                   | As an AI language model, I don’t have personal opinions or the ability to physically see individuals, so I can't provide specific recommendations for haircuts. However, there can be suitable hairstyles that tend to suit a wide range of people. Classic cuts like a bob, layered styles, or shaggy hair can adapt to different face shapes and hair textures. It’s always a good idea to consult with a professional hairstylist who can assess your unique features and suggest a haircut that will complement your individual style and preferences. |
 | YT-100M-13B-v1.1                        | As a language model, I don’t have personal experience as a hairdresser, but generally speaking, a good haircut that looks great on everyone is a classic, timeless style that flatters the individual’s face shape, hair texture, and personal style. Some examples of such hairstyles include:  1. A classic bob is a look that goes on anyone, whether it’s a chin-length bob for a luxe, more dramatic version.  2. Layers: Adding layers to a hairstyle can add dimension and movement, and you can sport a range of diverse shapes.  |
 | PaLM-Model-chat                           | There is no one-size-fits-all answer to this question, as the best haircut for everyone will vary depending on their individual hair type, face shape, and personal style. Nevertheless, some haircuts tend to look good on people with defined face shapes. The bob is a classic haircut that has been popular for decades. It is a straight haircut that typically cut just above the shoulders. The bob can be blunt, angled, or layered, and can be styled straight, wavy, or curly. It’s a flattering haircut for many face shapes, and it can easily be adjusted to suit the individual. |
-```
+

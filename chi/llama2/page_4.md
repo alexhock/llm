@@ -1,4 +1,4 @@
-```markdown
+
 ## Figure 3: Safety human evaluation results for LLaMA 2-Chat compared to other open-source and closed-source models.
 
 Human raters judged model generations for safety violations across ~2,000 adversarial prompts consisting of both single and multi-turn prompts. More details can be found in Section 4.4. It is important to caveat these safety results with the inherent bias of LLM evaluations due to limitations of the prompt set, subjectivity of the review guidelines, and subjectivity of individual raters. Additionally, these safety evaluations are performed using content standards that are likely to be biased towards the LLaMA 2-Chat models.
@@ -17,4 +17,3 @@ The remainder of this paper describes our pretraining methodology (Section 2), f
 ‡ We are delaying the release of the 34B model due to a lack of time to sufficiently red team.  
 † [source](https://ai.meta.com/llama)  
 † [source](https://github.com/facebookresearch/llama)
-```

@@ -1,4 +1,4 @@
-```markdown
+
 # Overall safety measures
 
 ## Figure 17: Overall safety measures
@@ -20,4 +20,3 @@ On LLAMA 2-CHAT annotations, the average IRR is 0.90 according to Gwet’s AC2 m
 We show the overall violation percentage and safety rating of various LLMs in Figure 17. LLAMA 2-CHAT has comparable or lower overall violation percentage across model sizes, while ChatGPT and Falcon (Almazrouei et al., 2023) come next, then MPT (Masaoloff et al., 2023) and Vicuna (Chang et al., 2023). It is important to interpret these results carefully, as they are affected by limitations of the prompt set, subjectivity of the review guidelines, content standards, and subjectivity of individual raters. 
 
 Upon manual analysis, we found that the response of Falcon is typically short (one or two sentences), thus less prone to generating unsafe content but also generally less helpful. This is reflected by a large number of responses of Falcon with rating = 3. As a result, we note that in Figure 17b the average rating of Falcon is much lower than LLAMA 2-CHAT (34B) although their violation percentages look similar (3.8 vs 4.5).
-```

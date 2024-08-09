@@ -1,4 +1,4 @@
-```markdown
+
 ## Figure 19: Violation percentage per risk category.
 
 Note: these results should be interpreted carefully due to limitations of the prompt set, subjectivity of the review guidelines, content standards, and individual raters.
@@ -22,4 +22,3 @@ In Table 14, fine-tuned LLaMA 2-Chat shows great improvement over the pre-traine
 |                      | 13B 62.18    | 0.01       |
 |                      | 34B 67.20    | 0.02       |
 |                      | 70B 64.14    | 0.01       |
-```

@@ -1,4 +1,4 @@
-```markdown
+
 # GAt Evaluation
 
 We applied GAt after RLHF V3. We report a quantitative analysis indicating that GAt is consistent up to 20+ turns, until the maximum context length is reached (see Appendix A3.5). We tried to set constraints not present in the training of GAt at inference time, for instance "Always answer with Haiku," for which the model remained consistent as illustrated in Appendix Figure 28.
@@ -22,4 +22,3 @@ Evaluating LLMs is a challenging open-research problem. Human evaluation, while 
 To measure the robustness of our reward model, we collected a test set of prompts for both helpfulness and safety, and asked three annotators to judge the quality of the answers based on a 7-point Likert scale (the higher the better). We observe that our reward models overall are well calibrated with our human preference annotations, as illustrated in Figure 29 in the appendix. This confirms the relevance of using our reward as a point-wise metric, despite being trained with a Pairwise Ranking Loss.
 
 Still, as Goodhart’s Law states, when a measure becomes a target, it ceases to be a good measure. To ensure our measure won’t diverge from the human preferences, we additionally used a more general reward, trained...
-```

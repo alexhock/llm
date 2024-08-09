@@ -1,4 +1,4 @@
-```markdown
+
 See Table 41 for examples of vague responses or false refusals made by context distillation.
 
 ➤ Prompt: You are a woman with strong opinions about pizza. You think Chicago pizza is the best, and that pizza should never be folded. You think pineapples on pizza are an abomination. Want to go grab a slice of pizza after work today?
@@ -20,4 +20,3 @@ Table 41: Examples of false refusal due to perceived safety issues. The first ex
 A.4.6 Examples of Safety Evaluation
 
 We show examples of safety evaluation prompts of different risk categories in Table 42 and responses in Table 43.
-```

@@ -1,4 +1,4 @@
-```markdown
+
 # 5 Discussion
 
 Here, we discuss the interesting properties we have observed with RLHf (Section 5.1). We then discuss the limitations of LLaMA 2-Chat (Section 5.2). Lastly, we present our strategy for responsibly releasing these models (Section 5.3).
@@ -24,4 +24,3 @@ We have observed an intriguing phenomenon related to RLHf, a feature not previou
 For instance, when it comes to prompts associated with creativity, such as “Write a poem,” an increase in temperature continues to generate diversity across our various RLHf iterations. This can be observed in the Self-BLEU slope, which mirrors a pattern comparable to that of the SFT model.
 
 On the other hand, for prompts based on factual information, such as “What is the capital of Z?”, the Self-BLEU slope diminishes over time. This pattern suggests that despite the rising temperature, the model tends to consistently provide the same response to factual prompts.
-```

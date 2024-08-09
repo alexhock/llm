@@ -1,4 +1,4 @@
-```markdown
+
 | Model             | Size | Code | Commonsense Reasoning | World Knowledge | Reading Comprehension | Math  | MMLU | BBH  | AGI Eval |
 |-------------------|------|------|-----------------------|-----------------|-----------------------|-------|------|------|---------|
 | MPT               | 7B   | 25.0 | 57.4                  | 41.0            | 57.5                  | 26.8  | 31.0 | 23.5 |         |
@@ -31,4 +31,3 @@ In addition to open-source models, we also compare LLaMA 2 70B results to closed
 
 ### 3 Fine-tuning
 LLaMA 2-Chat is the result of several months of research and iterative applications of alignment techniques, including both instruction tuning and RLHF, requiring significant computational and annotation resources. In this section, we report on our experiments and findings using supervised fine-tuning (Section 3.1), as well as initial and iterative reward modeling (Section 3.2). We also share a new technique, Ghost Attention (GAt), which we find helps control dialogue flow over multiple turns (Section 3.3). See Section 4.2 for safety evaluations on fine-tuned models.
-```
