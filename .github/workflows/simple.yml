@@ -1,0 +1,15 @@
+name: Hello World Workflow
+
+# This specifies when the action should be triggered. In this case, on every push.
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest  # The runner (environment) to use. Ubuntu in this case.
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3  # This action checks out your repository files.
+
+      - name: Print Hello World
+        run: echo "Hello, World!"
