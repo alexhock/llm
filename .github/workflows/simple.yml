@@ -40,8 +40,8 @@ jobs:
           path: ./.venv
           key: ${{ runner.os }}-venv-${{ hashFiles('**/poetry.lock') }}
 
-      - name: Install dependencies
-        run: python -m poetry install
+      - name: install dependencies
+        run: python -m poetry --project-file ./rag/pyproject.toml --project-root ./rag/ install
 
       - name: View poetry --help
         run: poetry --help
