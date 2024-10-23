@@ -1,8 +1,7 @@
 name: Evaluation flow
 
 on: [push]
-
-workflow_dispatch:
+  workflow_dispatch:  # enables manual trigger
 
 jobs:
   evaluation:
@@ -12,7 +11,7 @@ jobs:
         python-version: ["3.11"]
         poetry-version: ["1.8.3"]
         os: [ubuntu-latest]
-        working-directory: "./rag"
+        #working-directory: "./rag"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
