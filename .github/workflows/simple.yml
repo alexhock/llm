@@ -1,6 +1,7 @@
 name: Evaluation flow
 
-on: [push]
+on: 
+    push:
     workflow_dispatch:  # enables manual trigger
 
 jobs:
