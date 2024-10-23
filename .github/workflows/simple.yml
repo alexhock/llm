@@ -1,26 +1,18 @@
-name: Hello World Workflow
+name: Evaluation flow
 
-# This specifies when the action should be triggered. In this case, on every push.
 on: [push]
 
+workflow_dispatch:
+
 jobs:
-  say-hello:
-    runs-on: ubuntu-latest  # The runner (environment) to use. Ubuntu in this case.
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4  # This action checks out your repository files.
-
-      - name: Print Hello World
-        run: echo "Hello, World!"
-
-  ci:
+  evaluation:
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.11"]
-        poetry-version: ["1.7.1"]
+        poetry-version: ["1.8.3"]
         os: [ubuntu-latest]
+        working-directory: "./rag"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -29,16 +21,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install poetry
-        run: python -m pip install poetry==1.8.3
+        run: python -m pip install poetry==${{ matrix.poetry-version }}
 
       - name: Configure poetry
         run: python -m poetry config virtualenvs.in-project true
-
-      - name: Cache the virtualenv
-        uses: actions/cache@v2
-        with:
-          path: ./.venv
-          key: ${{ runner.os }}-venv-${{ hashFiles('**/poetry.lock') }}
 
       - name: Install dependencies
         working-directory: ./rag
