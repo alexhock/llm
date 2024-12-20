@@ -1,0 +1,17 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+
+# Name of the experiment where all jobs will end up in the Azure ML dashboard
+experiment_name: LLM-InstructionTuning
+display_name: Intel/neural-chat-7b-v3-3
+
+# What to run
+command: >-  
+  python main.py --model_name="Intel/neural-chat-7b-v3-3"
+
+code: .
+
+environment:
+  build:
+    path: ./environment
+
+compute: azureml:A100

@@ -1,0 +1,19 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+
+# Name of the experiment where all jobs will end up in the Azure ML dashboard
+experiment_name: LLM-Finetuning-MultiGPU
+display_name: microsoft/phi-2
+
+# What to run
+command: >-  
+  python main.py --filename ${{inputs.filename}} --model_name="microsoft/phi-2" --epochs=3
+inputs:
+  filename: ./finance-data.csv
+
+code: .
+
+environment:
+  build:
+    path: ./environment
+
+compute: azureml:V100

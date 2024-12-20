@@ -1,0 +1,20 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+
+# Name of the experiment where all jobs will end up in the Azure ML dashboard
+experiment_name: LLM-InstructionTuning-Text-to-SQL
+display_name: mistralai/Mistral-7B-v0.1
+
+# What to run
+command: >-  
+  python main.py --model_name="mistralai/Mistral-7B-v0.1"
+
+code: .
+
+environment_variables:
+  KEY_VAULT_NAME: "A keyvault name"
+
+environment:
+  build:
+    path: ./environment
+
+compute: azureml:A100
